@@ -1,0 +1,13 @@
+<ion-list>
+    <h1>{{titulo}}</h1>
+    <ion-item *ngFor="let maestro of maestros">
+        <ion-label> 
+            <h1> Nombre: <span>{{ maestro.Nombre }}</span></h1>
+            <h2> Especialidad: <span>{{ maestro.especialidad }}</span> </h2>
+            <h2> Carrera: <span>{{ maestro.carrera}}</span> </h2>
+        </ion-label>
+        <ion-avatar slot="start">
+            <img [src]="maestro.img"> 
+        </ion-avatar>
+      </ion-item>
+</ion-list>

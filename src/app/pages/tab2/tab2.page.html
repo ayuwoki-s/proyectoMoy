@@ -1,0 +1,22 @@
+<ion-header no-border>
+  <ion-toolbar color="dark">
+    <ion-title text-center>
+      Profesores
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content color="dark">
+
+  <ion-slides mode="ios">
+
+    <ion-slide color="primary" class="slide1">
+      <app-maestros [maestros]="maestros" [titulo]="titulo.uno"></app-maestros>
+    </ion-slide>
+
+    <ion-slide color="secondary" class="slide2"> 
+      <app-maestros [maestros]="maestros" [titulo]="titulo.dos" ></app-maestros>
+    </ion-slide>
+  </ion-slides>
+
+</ion-content>

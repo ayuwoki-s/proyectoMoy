@@ -1,0 +1,43 @@
+[
+    {
+        "Nombre": "Moises",
+        "carrera": "lia",
+        "especialidad": "Todo",
+        "img": "./assets/img/1.jpg"
+    },{
+        "Nombre": "Yeidth",
+        "carrera": "lia",
+        "especialidad": "Ingenieria de Software",
+        "img": "./assets/img/2.png"
+    },{
+        "Nombre": "Trueba",
+        "carrera": "lia",
+        "especialidad": "Bases de datos",
+        "img": "./assets/img/3.jpg"
+    },{
+        "Nombre": "Hipolito",
+        "carrera": "lia",
+        "especialidad": "Calculo",
+        "img": "./assets/img/4.png"
+    },{
+        "Nombre": "Tito",
+        "carrera": "lia",
+        "especialidad": "Sistemas expertos",
+        "img": "./assets/img/5.jpg"
+    },{
+        "Nombre": "Trueba",
+        "carrera": "lia",
+        "especialidad": "Bases de datos",
+        "img": "./assets/img/3.jpg"
+    },{
+        "Nombre": "Hipolito",
+        "carrera": "lia",
+        "especialidad": "Calculo",
+        "img": "./assets/img/4.png"
+    },{
+        "Nombre": "Tito",
+        "carrera": "lia",
+        "especialidad": "Sistemas expertos",
+        "img": "./assets/img/5.jpg"
+    }
+]
