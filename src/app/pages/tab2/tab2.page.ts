@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { MaestrosService } from 'src/app/services/maestros.service';
 import { Maestro } from 'src/app/interfaces/interfaces';
+import { StorageService } from 'src/app/services/storage.service';
 
 @Component({
   selector: 'app-tab2',
@@ -15,12 +16,12 @@ export class Tab2Page implements OnInit {
     dos: 'Maestros agregados',
   };
 
-  constructor(private maestrosServ: MaestrosService) {}
+  constructor(private maestrosServ: MaestrosService, public storageServ: StorageService) {}
 
   ngOnInit() {
     this.maestrosServ.getMaestros().subscribe( data => {
       this.maestros = data;
-      console.log('profes:', this.maestros);
     });
   }
+  
 }

@@ -9,3 +9,17 @@
 @import '~@ionic/angular/css/text-alignment.css';
 @import '~@ionic/angular/css/text-transformation.css';
 @import '~@ionic/angular/css/flex-utils.css';
+
+.color, .action-sheet-group { // para cambiar a color negro las opciones
+    background-color: var( --ion-color-dark ) !important;
+    color: white !important;
+}
+
+.color ion-icon { // para cambiar a color negro las opciones
+    color: white !important;
+}
+
+.toast {
+    color: white !important;
+    text-align: center !important;
+}

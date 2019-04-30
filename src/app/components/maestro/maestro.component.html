@@ -1,0 +1,18 @@
+ <ion-item>
+
+    <div class="noticia-more">
+        <ion-button fill="clear" (click)="abrirOpciones()"> 
+            <ion-icon name="more" slot="icon-only"></ion-icon>
+        </ion-button>
+    </div>
+
+    <ion-label> 
+        <h1> Nombre: <span>{{ maestro.Nombre }}</span></h1>
+        <h2> Especialidad: <span>{{ maestro.especialidad }}</span> </h2>
+        <h2> Carrera: <span>{{ maestro.carrera}}</span> </h2>
+    </ion-label>
+    <ion-avatar slot="start">
+        <img [src]="maestro.img"> 
+    </ion-avatar>
+
+  </ion-item>

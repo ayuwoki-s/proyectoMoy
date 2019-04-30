@@ -6,7 +6,7 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content color="dark">
+<ion-content>
 
   <ion-slides mode="ios">
 
@@ -14,8 +14,14 @@
       <app-maestros [maestros]="maestros" [titulo]="titulo.uno"></app-maestros>
     </ion-slide>
 
-    <ion-slide color="secondary" class="slide2"> 
-      <app-maestros [maestros]="maestros" [titulo]="titulo.dos" ></app-maestros>
+    <ion-slide color="secondary" class="slide2" *ngIf="storageServ.maestros.length > 0"> 
+      <app-maestros [maestros]="storageServ.maestros" 
+                    [titulo]="titulo.dos" 
+                    [addPoint]="true"></app-maestros>
+    </ion-slide>
+
+    <ion-slide class="slide3" *ngIf="storageServ.maestros.length === 0">
+      <ion-label>No hay maestros agregados</ion-label>
     </ion-slide>
   </ion-slides>
 

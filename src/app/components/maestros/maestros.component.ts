@@ -10,9 +10,17 @@ export class MaestrosComponent implements OnInit {
 
   @Input() maestros: Maestro[] = [];
   @Input() titulo: string;
+  @Input() addPoint = false;
+
+  textoBuscar = '';
 
   constructor() { }
 
   ngOnInit() {}
 
+  buscar( event ) {
+    this.textoBuscar = event.detail.value;
+  }
+
 }
+
