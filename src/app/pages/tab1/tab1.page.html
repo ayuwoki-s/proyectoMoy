@@ -12,8 +12,9 @@
   
       <ion-list>
     
-        <ion-item>
-            <app-persona></app-persona>
+        <ion-item *ngFor="let perfil of perfil">
+          <!-- aqui le mandamos la informacion al hijo del padre -->
+            <app-persona [perfil]="perfil"></app-persona>
         </ion-item>
     
         <ion-item>

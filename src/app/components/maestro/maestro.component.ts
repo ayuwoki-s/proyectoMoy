@@ -17,7 +17,8 @@ export class MaestroComponent implements OnInit {
     private storageService: StorageService
     ) { }
 
-  ngOnInit() {}
+  ngOnInit() {
+  }
 
   async abrirOpciones() {
 

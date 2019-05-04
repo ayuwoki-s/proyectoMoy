@@ -16,7 +16,8 @@ export class MaestrosComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit() {}
+  ngOnInit() {
+  }
 
   buscar( event ) {
     this.textoBuscar = event.detail.value;

@@ -12,16 +12,17 @@ import { PerfilService } from '../../services/perfil.service';
 })
 export class PersonaComponent implements OnInit {
 
-  perfil: Perfil;
+  @Input() perfil: Perfil; // input por que esto viene del padre
 
   constructor(
-    public perfilServ: PerfilService
+    // public perfilServ: PerfilService
     ) { }
 
   ngOnInit() {
-    this.perfilServ.getPerfil().subscribe( data => {
+    /*this.perfilServ.getPerfil().subscribe( data => {
       this.perfil = data;
-    });
+    });*/
+    console.log('data del hijo', this.perfil);
   }
 
 }
