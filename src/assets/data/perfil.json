@@ -1,0 +1,10 @@
+[
+    {
+        "Nombre": "Oscar",
+        "Correo": "oscar@gmail",
+        "pass": "123",
+        "Apellidos": "Lopez",
+        "img": "./assets/img/2.png",
+        "telefono": 5526262626
+    }
+]

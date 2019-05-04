@@ -4,15 +4,18 @@ import { IonicModule } from '@ionic/angular';
 import { MaestrosComponent } from './maestros/maestros.component';
 import { MaestroComponent } from './maestro/maestro.component';
 import { PipesModule } from '../pipes/pipes.module';
+import { PersonaComponent } from './persona/persona.component';
 
 @NgModule({
   declarations: [
     MaestrosComponent,
-    MaestroComponent
+    MaestroComponent,
+    PersonaComponent
   ],
   exports: [
     MaestrosComponent,
-    MaestroComponent
+    MaestroComponent,
+    PersonaComponent
   ],
   imports: [
     CommonModule,

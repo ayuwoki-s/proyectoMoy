@@ -12,7 +12,7 @@ export class Tab2Page implements OnInit {
 
   maestros: Maestro;
   titulo = {
-    uno: 'Maestros disponibles',
+    uno: 'Maestros disponibles', 
     dos: 'Maestros agregados',
   };
 
@@ -23,5 +23,5 @@ export class Tab2Page implements OnInit {
       this.maestros = data;
     });
   }
-  
+
 }
