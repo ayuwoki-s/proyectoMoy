@@ -1,0 +1,40 @@
+<ion-header>
+  <ion-toolbar color="primary">
+      <ion-button [routerLink]="['../../tab4']">
+          <ion-icon slot="icon-only" name="arrow-back"></ion-icon>
+        </ion-button>
+    <ion-label padding class="reg">Registro</ion-label>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <form action="">
+    <ion-list>
+        <ion-item>
+            <ion-label>Nombre:</ion-label>
+            <ion-input type="text" placeholder="Ingresa tu nombre(s):"></ion-input>
+        </ion-item>
+        <ion-item>
+            <ion-label>Apellidos:</ion-label>
+            <ion-input type="text" placeholder="Ingresa tus apellidos:"></ion-input>
+        </ion-item>
+        <ion-item>
+            <ion-label>E-mail:</ion-label>
+            <ion-input type="email" placeholder="Ingresa tus correo electronico:"></ion-input>
+        </ion-item>
+        <ion-item>
+            <ion-label>Contraseña:</ion-label>
+            <ion-input type="password" placeholder="Ingresa tus password:"></ion-input>
+        </ion-item>
+        <ion-item>
+            <ion-label>Confirma tu contraseña:</ion-label>
+            <ion-input type="password" placeholder="Repite tu password:"></ion-input>
+        </ion-item>
+        <ion-item>
+            <ion-label>Teléfono:</ion-label>
+            <ion-input type="number" placeholder="Ingresa tu Teléfono:"></ion-input>
+        </ion-item>
+    </ion-list>
+    <ion-button padding>Registrar</ion-button>
+  </form>
+</ion-content>

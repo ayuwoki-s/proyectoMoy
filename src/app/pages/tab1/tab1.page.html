@@ -1,12 +1,12 @@
 <ion-header no-border>
     <ion-toolbar color="primary">
-      <ion-title text-center>Iniciar sesión</ion-title>
+      <ion-title text-center>Perfil</ion-title>
     </ion-toolbar>
   </ion-header>
   
   <ion-content>
   
-    <img src="/assets/img/perfil_01.jpg" class="imgCircle">
+    <img src="/assets/img/perfil_01.jpg">
   
     <form>
   
@@ -17,21 +17,13 @@
             <app-persona [perfil]="perfil"></app-persona>
         </ion-item>
     
-        <ion-item>
-          <ion-label position="stacked">Correo:</ion-label>
-        </ion-item>
-    
       </ion-list>
     
-      <ion-row class="row">
-    
-        <ion-col>
-          <ion-label></ion-label>
-        </ion-col>
-        
-    
-      </ion-row>
-  
     </form>
+
+    <ion-content padding>
+      <ion-button  [routerLink]="['../../tab2']" padding> Buscar Maestros</ion-button>
+      <ion-button  [routerLink]="['../../tab4']" padding color="danger"> Cerrar sesión</ion-button>
+    </ion-content>
   
   </ion-content>
