@@ -1,3 +1,4 @@
+import { AlertController } from '@ionic/angular';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -7,9 +8,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class Tab5Page implements OnInit {
 
-  constructor() { }
+  constructor(public alet: AlertController) { }
 
   ngOnInit() {
   }
 
+  async regis() {
+    const alert = await this.alet.create({
+      header: 'Registro de.',
+      subHeader: 'Usuario:',
+      message: 'Guardado!',
+      buttons: ['Entrendido']
+    });
+
+    await alert.present();
+  }
 }

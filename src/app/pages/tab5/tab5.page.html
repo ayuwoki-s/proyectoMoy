@@ -1,6 +1,6 @@
 <ion-header>
   <ion-toolbar color="primary">
-      <ion-button [routerLink]="['../../tab4']">
+      <ion-button [routerLink]="['/tab4']">
           <ion-icon slot="icon-only" name="arrow-back"></ion-icon>
         </ion-button>
     <ion-label padding class="reg">Registro</ion-label>
@@ -35,6 +35,6 @@
             <ion-input type="number" placeholder="Ingresa tu Teléfono:"></ion-input>
         </ion-item>
     </ion-list>
-    <ion-button padding>Registrar</ion-button>
+    <ion-button padding [routerLink]="['/tab4']" (click)="regis()">Registrar</ion-button>
   </form>
 </ion-content>

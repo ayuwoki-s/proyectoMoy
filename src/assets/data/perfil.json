@@ -1,7 +1,7 @@
 [
     {
         "Nombre": "Oscar",
-        "Correo": "oscar@gmail",
+        "Correo": "oscar@gmail.com",
         "pass": "123",
         "Apellidos": "Lopez",
         "img": "./assets/img/2.png",
