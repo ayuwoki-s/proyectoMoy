@@ -1,43 +1,74 @@
 [
     {
-        "Nombre": "Moises",
-        "carrera": "lia",
-        "especialidad": "Todo",
-        "img": "./assets/img/1.jpg"
+        "Nombre": "Moises Garcia Nieto",
+        "carrera": "LIA, ICO",
+        "area": ["Base de Datos", "Programación", "Redes"],
+        "img": "./assets/img/1.jpg",
+        "grado": "Doctorado",
+        "calificacion": 10 
     },{
-        "Nombre": "Yeidth",
-        "carrera": "lia",
-        "especialidad": "IW",
-        "img": "./assets/img/2.png"
+        "Nombre": "Yedid Erandini Niño Membrillo",
+        "carrera": "LIA, ICO",
+        "area": ["Ingenieria de Software", "Programación", "Estructura de Datos"],
+        "img": "./assets/img/2.jpg",
+        "grado": "Maestria",
+        "calificacion": 10 
     },{
-        "Nombre": "Trueba",
-        "carrera": "lia",
-        "especialidad": "Bases de datos",
-        "img": "./assets/img/3.jpg"
+        "Nombre": "Adrian Trueba Espinoza",
+        "carrera": "LIA",
+        "area": ["Bases de datos", "Inteligencia Artificial"],
+        "img": "./assets/img/3.png",
+        "grado": "Doctorado",
+        "calificacion": 8 
     },{
-        "Nombre": "Hipolito",
-        "carrera": "lia",
-        "especialidad": "Calculo",
-        "img": "./assets/img/4.png"
+        "Nombre": "Hipolito Gomez Ayala",
+        "carrera": "LIA, ICO",
+        "area": ["Calculo"],
+        "img": "./assets/img/4.jpg",
+        "grado": "Maestria",
+        "calificacion": 7 
     },{
-        "Nombre": "Tito",
-        "carrera": "lia",
-        "especialidad": "Sistemas expertos",
-        "img": "./assets/img/5.jpg"
+        "Nombre": "Alma Delia Cuevas Rasgado",
+        "carrera": "ICO",
+        "area": ["Estructura de Datos", "Sistemas expertos"],
+        "img": "./assets/img/5.png",
+        "grado": "Doctorado",
+        "calificacion": 10 
     },{
-        "Nombre": "Assimov Bary",
-        "carrera": "lenguas",
-        "especialidad": "Frances",
-        "img": "./assets/img/3.jpg"
+        "Nombre": "Carlos Ocelotl Rivera Villa",
+        "carrera": "LIA",
+        "area": ["Programacion Orientada Objetos", "Diseño por computadora", "Software de Base"],
+        "img": "./assets/img/6.jpg",
+        "grado": "Maestria",
+        "calificacion": 8 
     },{
-        "Nombre": "Peter Parker",
-        "carrera": "lia",
-        "especialidad": "Modelos",
-        "img": "./assets/img/4.png"
+        "Nombre": "Fernando Robles Gil",
+        "carrera": "ICO",
+        "area": ["Entre el Hardware y el Softaware", "Sistemas operativos"],
+        "img": "./assets/img/7.png",
+        "grado": "Maestria",
+        "calificacion": 6 
     },{
-        "Nombre": "Princesa Guerrera",
-        "carrera": "Lenguas",
-        "especialidad": "Morfosintaxis",
-        "img": "./assets/img/2.png"
+        "Nombre": "Angel Rafael Quintos Ramirez",
+        "carrera": "LIA, ICO",
+        "area": ["Redes", "Hardware", "Sistemas Operativos", "Mantenimiento preventivo y correctivo"],
+        "img": "./assets/img/8.jpg",
+        "grado": "Maestria",
+        "calificacion": 10 
+    },{
+        "Nombre": "Roberto Ramirez",
+        "carrera": "LIA, ICO",
+        "area": ["Redes", "Simulación de hardware", "Calculo Binario"],
+        "img": "./assets/img/9.jpg",
+        "grado": "Maestria",
+        "calificacion": 9
+    }
+    ,{
+        "Nombre": "Antonio Inoue",
+        "carrera": "CPyAP",
+        "area": ["Ciencias Politicas"],
+        "img": "./assets/img/10.jpg",
+        "grado": "Maestria",
+        "calificacion": 8 
     }
 ]

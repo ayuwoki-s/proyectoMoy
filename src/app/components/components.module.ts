@@ -5,17 +5,23 @@ import { MaestrosComponent } from './maestros/maestros.component';
 import { MaestroComponent } from './maestro/maestro.component';
 import { PipesModule } from '../pipes/pipes.module';
 import { PersonaComponent } from './persona/persona.component';
+import { MaestroDetalleComponent } from './maestro-detalle/maestro-detalle.component';
 
 @NgModule({
+  entryComponents: [
+    MaestroDetalleComponent
+  ],
   declarations: [
     MaestrosComponent,
     MaestroComponent,
-    PersonaComponent
+    PersonaComponent,
+    MaestroDetalleComponent
   ],
   exports: [
     MaestrosComponent,
     MaestroComponent,
-    PersonaComponent
+    PersonaComponent,
+    MaestroDetalleComponent
   ],
   imports: [
     CommonModule,
